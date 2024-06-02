@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsiveness */
+@media only screen and (orientation: landscape){
+
+}
+@media only screen and (orientation: portrait){
+    .Highlights_card__jG\+8c ul, .Testimonials_card__bJedr ul, .About_about__TObg2{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row; /* Changed from column to row */
+        flex-wrap: wrap; /* Added flex-wrap */
+    }
+    .Highlights_card__jG\+8c ul li {
+        margin-bottom: 30px;
+    }
+    .Footer_footerBox__kOFD0{
+        gap: 20px;
+    }
+    /* body:not(.Hero_hero__V2d8a){
+        padding: 20px;
+    } */
+}
+
+@media only screen and (max-width: 600px){
+    .Nav_navList__Lc3Q7 ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Hero_hero__V2d8a{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .About_about__TObg2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Hero_partOne__LwDgd, .About_partOne__S3JoN{
+        max-width: 300px;
+    }
+    .Hero_image__GsUSS{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+ .hero{
+    background-color: red;
+ }
+}
+
+@media only screen and (min-width: 900px){
+
+}
